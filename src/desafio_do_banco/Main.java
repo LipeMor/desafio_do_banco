@@ -4,8 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
 		Cliente filipe = new Cliente();
-		filipe.setNome("Filipe Moreira dos Santos");
+		filipe.setNome("Filipe");
+		filipe.setSobrenome("Moreira dos Santos");
+		
 		
 		Conta cc = new ContaCorrente(filipe);
 		cc.depositar(100);
